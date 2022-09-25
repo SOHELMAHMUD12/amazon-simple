@@ -7,6 +7,10 @@ const Product = (props) => {
         <div className='product'>
             <img src={img} alt="" />
             <p className='product-name'>{name}</p>
+            <p>Price:${price}</p>
+            <p>Seller:{seller}</p>
+            <p>Ratings:{ratings} stars</p>
+            <p>Stock:{stock}</p>
             
         </div>
     );
